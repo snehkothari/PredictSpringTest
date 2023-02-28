@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20117C2428E58AFC000F8E28 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20117C2328E58AFC000F8E28 /* HideKeyboard.swift */; };
+		20117C2928E59B98000F8E28 /* DownloadProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20117C2828E59B98000F8E28 /* DownloadProgressView.swift */; };
+		20117C2B28E59CEB000F8E28 /* SavingToDatabaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20117C2A28E59CEB000F8E28 /* SavingToDatabaseView.swift */; };
+		20117C2D28E59E27000F8E28 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20117C2C28E59E27000F8E28 /* MainView.swift */; };
+		20117C3028E65687000F8E28 /* UnitTestDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20117C2F28E65687000F8E28 /* UnitTestDownloadTask.swift */; };
+		2084760328DD361D0092518B /* PredictSpring_POSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2084760228DD361D0092518B /* PredictSpring_POSApp.swift */; };
+		2084760528DD361D0092518B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2084760428DD361D0092518B /* ContentView.swift */; };
+		2084760728DD361F0092518B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2084760628DD361F0092518B /* Assets.xcassets */; };
+		2084760A28DD361F0092518B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2084760928DD361F0092518B /* Preview Assets.xcassets */; };
+		2084762F28DD38390092518B /* DownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2084762E28DD38390092518B /* DownloadTask.swift */; };
+		2084763128DE615A0092518B /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2084763028DE615A0092518B /* DatabaseManager.swift */; };
+		20F2B1A328E4FCBD00B672AD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2B1A228E4FCBD00B672AD /* Product.swift */; };
+		20F2B1A728E5201800B672AD /* RowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2B1A628E5201800B672AD /* RowCard.swift */; };
+		20F2B1A928E5229900B672AD /* DoubleRoundToTwoPlacesString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2B1A828E5229900B672AD /* DoubleRoundToTwoPlacesString.swift */; };
+		20F2B1AB28E52B6700B672AD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2B1AA28E52B6700B672AD /* SearchBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2084761028DD361F0092518B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208475F728DD361D0092518B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208475FE28DD361D0092518B;
+			remoteInfo = "PredictSpring POS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20117C2328E58AFC000F8E28 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		20117C2828E59B98000F8E28 /* DownloadProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProgressView.swift; sourceTree = "<group>"; };
+		20117C2A28E59CEB000F8E28 /* SavingToDatabaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingToDatabaseView.swift; sourceTree = "<group>"; };
+		20117C2C28E59E27000F8E28 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		20117C2F28E65687000F8E28 /* UnitTestDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestDownloadTask.swift; sourceTree = "<group>"; };
+		208475FF28DD361D0092518B /* PredictSpring POS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PredictSpring POS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2084760228DD361D0092518B /* PredictSpring_POSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictSpring_POSApp.swift; sourceTree = "<group>"; };
+		2084760428DD361D0092518B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2084760628DD361F0092518B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2084760928DD361F0092518B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2084760F28DD361F0092518B /* PredictSpring POSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PredictSpring POSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2084762E28DD38390092518B /* DownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTask.swift; sourceTree = "<group>"; };
+		2084763028DE615A0092518B /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		20F2B1A228E4FCBD00B672AD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		20F2B1A628E5201800B672AD /* RowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCard.swift; sourceTree = "<group>"; };
+		20F2B1A828E5229900B672AD /* DoubleRoundToTwoPlacesString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRoundToTwoPlacesString.swift; sourceTree = "<group>"; };
+		20F2B1AA28E52B6700B672AD /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		208475FC28DD361D0092518B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2084760C28DD361F0092518B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20117C2528E58B0C000F8E28 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20F2B1A828E5229900B672AD /* DoubleRoundToTwoPlacesString.swift */,
+				20117C2328E58AFC000F8E28 /* HideKeyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		20117C2E28E59E7D000F8E28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2084760228DD361D0092518B /* PredictSpring_POSApp.swift */,
+				2084760428DD361D0092518B /* ContentView.swift */,
+				20117C2C28E59E27000F8E28 /* MainView.swift */,
+				20117C2A28E59CEB000F8E28 /* SavingToDatabaseView.swift */,
+				20117C2828E59B98000F8E28 /* DownloadProgressView.swift */,
+				20F2B1AA28E52B6700B672AD /* SearchBar.swift */,
+				20F2B1A628E5201800B672AD /* RowCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		208475F628DD361D0092518B = {
+			isa = PBXGroup;
+			children = (
+				2084760128DD361D0092518B /* PredictSpring POS */,
+				2084761228DD361F0092518B /* PredictSpring POSTests */,
+				2084760028DD361D0092518B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2084760028DD361D0092518B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				208475FF28DD361D0092518B /* PredictSpring POS.app */,
+				2084760F28DD361F0092518B /* PredictSpring POSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2084760128DD361D0092518B /* PredictSpring POS */ = {
+			isa = PBXGroup;
+			children = (
+				20117C2E28E59E7D000F8E28 /* Views */,
+				20117C2528E58B0C000F8E28 /* Extensions */,
+				2084762E28DD38390092518B /* DownloadTask.swift */,
+				2084763028DE615A0092518B /* DatabaseManager.swift */,
+				20F2B1A228E4FCBD00B672AD /* Product.swift */,
+				2084760628DD361F0092518B /* Assets.xcassets */,
+				2084760828DD361F0092518B /* Preview Content */,
+			);
+			path = "PredictSpring POS";
+			sourceTree = "<group>";
+		};
+		2084760828DD361F0092518B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2084760928DD361F0092518B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2084761228DD361F0092518B /* PredictSpring POSTests */ = {
+			isa = PBXGroup;
+			children = (
+				20117C2F28E65687000F8E28 /* UnitTestDownloadTask.swift */,
+			);
+			path = "PredictSpring POSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		208475FE28DD361D0092518B /* PredictSpring POS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2084762328DD361F0092518B /* Build configuration list for PBXNativeTarget "PredictSpring POS" */;
+			buildPhases = (
+				208475FB28DD361D0092518B /* Sources */,
+				208475FC28DD361D0092518B /* Frameworks */,
+				208475FD28DD361D0092518B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PredictSpring POS";
+			productName = "PredictSpring POS";
+			productReference = 208475FF28DD361D0092518B /* PredictSpring POS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2084760E28DD361F0092518B /* PredictSpring POSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2084762628DD361F0092518B /* Build configuration list for PBXNativeTarget "PredictSpring POSTests" */;
+			buildPhases = (
+				2084760B28DD361F0092518B /* Sources */,
+				2084760C28DD361F0092518B /* Frameworks */,
+				2084760D28DD361F0092518B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2084761128DD361F0092518B /* PBXTargetDependency */,
+			);
+			name = "PredictSpring POSTests";
+			productName = "PredictSpring POSTests";
+			productReference = 2084760F28DD361F0092518B /* PredictSpring POSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		208475F728DD361D0092518B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					208475FE28DD361D0092518B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2084760E28DD361F0092518B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 208475FE28DD361D0092518B;
+					};
+				};
+			};
+			buildConfigurationList = 208475FA28DD361D0092518B /* Build configuration list for PBXProject "PredictSpring POS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 208475F628DD361D0092518B;
+			productRefGroup = 2084760028DD361D0092518B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				208475FE28DD361D0092518B /* PredictSpring POS */,
+				2084760E28DD361F0092518B /* PredictSpring POSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		208475FD28DD361D0092518B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2084760A28DD361F0092518B /* Preview Assets.xcassets in Resources */,
+				2084760728DD361F0092518B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2084760D28DD361F0092518B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		208475FB28DD361D0092518B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20117C2B28E59CEB000F8E28 /* SavingToDatabaseView.swift in Sources */,
+				20117C2D28E59E27000F8E28 /* MainView.swift in Sources */,
+				20117C2428E58AFC000F8E28 /* HideKeyboard.swift in Sources */,
+				2084762F28DD38390092518B /* DownloadTask.swift in Sources */,
+				2084760528DD361D0092518B /* ContentView.swift in Sources */,
+				20F2B1A928E5229900B672AD /* DoubleRoundToTwoPlacesString.swift in Sources */,
+				20F2B1A728E5201800B672AD /* RowCard.swift in Sources */,
+				2084763128DE615A0092518B /* DatabaseManager.swift in Sources */,
+				2084760328DD361D0092518B /* PredictSpring_POSApp.swift in Sources */,
+				20F2B1AB28E52B6700B672AD /* SearchBar.swift in Sources */,
+				20117C2928E59B98000F8E28 /* DownloadProgressView.swift in Sources */,
+				20F2B1A328E4FCBD00B672AD /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2084760B28DD361F0092518B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20117C3028E65687000F8E28 /* UnitTestDownloadTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2084761128DD361F0092518B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208475FE28DD361D0092518B /* PredictSpring POS */;
+			targetProxy = 2084761028DD361F0092518B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2084762128DD361F0092518B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2084762228DD361F0092518B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2084762428DD361F0092518B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PredictSpring POS/Preview Content\"";
+				DEVELOPMENT_TEAM = GCCGZ24376;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SnehKothari.PredictSpring-POS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2084762528DD361F0092518B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PredictSpring POS/Preview Content\"";
+				DEVELOPMENT_TEAM = GCCGZ24376;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SnehKothari.PredictSpring-POS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2084762728DD361F0092518B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCCGZ24376;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SnehKothari.PredictSpring-POSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PredictSpring POS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PredictSpring POS";
+			};
+			name = Debug;
+		};
+		2084762828DD361F0092518B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCCGZ24376;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SnehKothari.PredictSpring-POSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PredictSpring POS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PredictSpring POS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		208475FA28DD361D0092518B /* Build configuration list for PBXProject "PredictSpring POS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2084762128DD361F0092518B /* Debug */,
+				2084762228DD361F0092518B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2084762328DD361F0092518B /* Build configuration list for PBXNativeTarget "PredictSpring POS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2084762428DD361F0092518B /* Debug */,
+				2084762528DD361F0092518B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2084762628DD361F0092518B /* Build configuration list for PBXNativeTarget "PredictSpring POSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2084762728DD361F0092518B /* Debug */,
+				2084762828DD361F0092518B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 208475F728DD361D0092518B /* Project object */;
+}
